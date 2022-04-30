@@ -98,11 +98,11 @@ namespace UITests
         {
             // Skip the test if the driver could not be loaded.
             // This happens when the underlying browser is not installed.
-            if (driver == null)
+           /*if (driver == null)
             {
                 Assert.Ignore();
                 return;
-            }
+            }*/
 
             // Locate the link by its ID and then click the link.
             ClickElement(FindElement(By.Id(linkId)));
